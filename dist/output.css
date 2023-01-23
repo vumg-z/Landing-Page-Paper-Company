@@ -5705,6 +5705,11 @@ textarea.form-control.is-invalid {
     background-color: rgb(26 86 219 / var(--tw-bg-opacity));
   }
 
+  .xl\:bg-amber-50 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 251 235 / var(--tw-bg-opacity));
+  }
+
   .xl\:px-32 {
     padding-left: 8rem;
     padding-right: 8rem;
@@ -5722,6 +5727,67 @@ textarea.form-control.is-invalid {
 }
 
 @media (min-width: 1536px) {
+  .\32xl\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
+  .\32xl\:col-span-3 {
+    grid-column: span 3 / span 3;
+  }
+
+  .\32xl\:col-start-4 {
+    grid-column-start: 4;
+  }
+
+  .\32xl\:col-start-3 {
+    grid-column-start: 3;
+  }
+
+  .\32xl\:col-start-1 {
+    grid-column-start: 1;
+  }
+
+  .\32xl\:col-start-2 {
+    grid-column-start: 2;
+  }
+
+  .\32xl\:col-start-6 {
+    grid-column-start: 6;
+  }
+
+  .\32xl\:col-start-5 {
+    grid-column-start: 5;
+  }
+
+  .\32xl\:row-span-1 {
+    grid-row: span 1 / span 1;
+  }
+
+  .\32xl\:row-start-2 {
+    grid-row-start: 2;
+  }
+
+  .\32xl\:row-start-3 {
+    grid-row-start: 3;
+  }
+
+  .\32xl\:my-10 {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .\32xl\:mt-32 {
+    margin-top: 8rem;
+  }
+
+  .\32xl\:grid-cols-8 {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+
+  .\32xl\:grid-rows-4 {
+    grid-template-rows: repeat(4, minmax(0, 1fr));
+  }
+
   .\32xl\:gap-0 {
     gap: 0px;
   }
@@ -5731,9 +5797,18 @@ textarea.form-control.is-invalid {
     background-color: rgb(26 86 219 / var(--tw-bg-opacity));
   }
 
+  .\32xl\:bg-amber-50 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 251 235 / var(--tw-bg-opacity));
+  }
+
   .\32xl\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+
+  .\32xl\:pb-10 {
+    padding-bottom: 2.5rem;
   }
 
   .\32xl\:text-3xl {
