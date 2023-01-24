@@ -4145,6 +4145,21 @@ textarea.form-control.is-invalid {
   margin-bottom: 1.25rem;
 }
 
+.mx-32 {
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
+.mx-12 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
 .mr-3 {
   margin-right: 0.75rem;
 }
@@ -5617,6 +5632,14 @@ textarea.form-control.is-invalid {
     grid-column: span 3 / span 3;
   }
 
+  .lg\:col-span-6 {
+    grid-column: span 6 / span 6;
+  }
+
+  .lg\:col-span-8 {
+    grid-column: span 8 / span 8;
+  }
+
   .lg\:col-start-2 {
     grid-column-start: 2;
   }
@@ -5657,6 +5680,31 @@ textarea.form-control.is-invalid {
   .lg\:my-10 {
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
+  }
+
+  .lg\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .lg\:mx-32 {
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+
+  .lg\:mx-96 {
+    margin-left: 24rem;
+    margin-right: 24rem;
+  }
+
+  .lg\:my-32 {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+
+  .lg\:my-64 {
+    margin-top: 16rem;
+    margin-bottom: 16rem;
   }
 
   .lg\:mt-32 {
