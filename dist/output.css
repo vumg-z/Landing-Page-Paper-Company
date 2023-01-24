@@ -4027,20 +4027,16 @@ textarea.form-control.is-invalid {
   z-index: 40;
 }
 
-.col-span-2 {
-  grid-column: span 2 / span 2;
-}
-
 .col-span-4 {
   grid-column: span 4 / span 4;
 }
 
-.col-span-1 {
-  grid-column: span 1 / span 1;
+.col-span-2 {
+  grid-column: span 2 / span 2;
 }
 
-.col-start-3 {
-  grid-column-start: 3;
+.col-span-1 {
+  grid-column: span 1 / span 1;
 }
 
 .col-start-2 {
@@ -4051,28 +4047,12 @@ textarea.form-control.is-invalid {
   grid-column-start: 4;
 }
 
-.col-start-6 {
-  grid-column-start: 6;
-}
-
 .col-start-1 {
   grid-column-start: 1;
 }
 
 .row-span-2 {
   grid-row: span 2 / span 2;
-}
-
-.row-span-1 {
-  grid-row: span 1 / span 1;
-}
-
-.row-span-4 {
-  grid-row: span 4 / span 4;
-}
-
-.row-span-3 {
-  grid-row: span 3 / span 3;
 }
 
 .row-start-2 {
@@ -4085,14 +4065,6 @@ textarea.form-control.is-invalid {
 
 .row-start-3 {
   grid-row-start: 3;
-}
-
-.row-start-4 {
-  grid-row-start: 4;
-}
-
-.row-start-6 {
-  grid-row-start: 6;
 }
 
 .mx-auto {
@@ -4145,16 +4117,6 @@ textarea.form-control.is-invalid {
   margin-bottom: 1.25rem;
 }
 
-.mx-32 {
-  margin-left: 8rem;
-  margin-right: 8rem;
-}
-
-.mx-12 {
-  margin-left: 3rem;
-  margin-right: 3rem;
-}
-
 .my-12 {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -4200,6 +4162,10 @@ textarea.form-control.is-invalid {
   margin-bottom: 0.75rem;
 }
 
+.mt-16 {
+  margin-top: 4rem;
+}
+
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -4218,10 +4184,6 @@ textarea.form-control.is-invalid {
 
 .mb-1 {
   margin-bottom: 0.25rem;
-}
-
-.mt-16 {
-  margin-top: 4rem;
 }
 
 .block {
@@ -4360,10 +4322,6 @@ textarea.form-control.is-invalid {
   width: 16rem;
 }
 
-.w-auto {
-  width: auto;
-}
-
 .max-w-xl {
   max-width: 36rem;
 }
@@ -4484,10 +4442,6 @@ textarea.form-control.is-invalid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.grid-cols-8 {
-  grid-template-columns: repeat(8, minmax(0, 1fr));
-}
-
 .grid-cols-7 {
   grid-template-columns: repeat(7, minmax(0, 1fr));
 }
@@ -4502,10 +4456,6 @@ textarea.form-control.is-invalid {
 
 .grid-rows-1 {
   grid-template-rows: repeat(1, minmax(0, 1fr));
-}
-
-.grid-rows-6 {
-  grid-template-rows: repeat(6, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -5110,6 +5060,25 @@ textarea.form-control.is-invalid {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 
+.float{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+  margin-top:16px;
+}
+
 .hover\:border-gray-300:hover {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
@@ -5512,10 +5481,6 @@ textarea.form-control.is-invalid {
     margin-bottom: 0px;
   }
 
-  .md\:mt-16 {
-    margin-top: 4rem;
-  }
-
   .md\:mt-32 {
     margin-top: 8rem;
   }
@@ -5571,11 +5536,6 @@ textarea.form-control.is-invalid {
     background-color: transparent;
   }
 
-  .md\:bg-blue-700 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(26 86 219 / var(--tw-bg-opacity));
-  }
-
   .md\:p-0 {
     padding: 0px;
   }
@@ -5628,14 +5588,6 @@ textarea.form-control.is-invalid {
     grid-column: span 2 / span 2;
   }
 
-  .lg\:col-span-3 {
-    grid-column: span 3 / span 3;
-  }
-
-  .lg\:col-span-6 {
-    grid-column: span 6 / span 6;
-  }
-
   .lg\:col-span-8 {
     grid-column: span 8 / span 8;
   }
@@ -5660,16 +5612,8 @@ textarea.form-control.is-invalid {
     grid-column-start: 5;
   }
 
-  .lg\:row-span-2 {
-    grid-row: span 2 / span 2;
-  }
-
   .lg\:row-start-3 {
     grid-row-start: 3;
-  }
-
-  .lg\:row-start-5 {
-    grid-row-start: 5;
   }
 
   .lg\:my-8 {
@@ -5682,24 +5626,9 @@ textarea.form-control.is-invalid {
     margin-bottom: 2.5rem;
   }
 
-  .lg\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .lg\:mx-32 {
-    margin-left: 8rem;
-    margin-right: 8rem;
-  }
-
   .lg\:mx-96 {
     margin-left: 24rem;
     margin-right: 24rem;
-  }
-
-  .lg\:my-32 {
-    margin-top: 8rem;
-    margin-bottom: 8rem;
   }
 
   .lg\:my-64 {
@@ -5711,24 +5640,12 @@ textarea.form-control.is-invalid {
     margin-top: 8rem;
   }
 
-  .lg\:mb-10 {
-    margin-bottom: 2.5rem;
-  }
-
-  .lg\:mb-20 {
-    margin-bottom: 5rem;
-  }
-
   .lg\:flex {
     display: flex;
   }
 
   .lg\:w-1\/2 {
     width: 50%;
-  }
-
-  .lg\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .lg\:grid-cols-8 {
@@ -5742,16 +5659,6 @@ textarea.form-control.is-invalid {
   .lg\:bg-gray-100 {
     --tw-bg-opacity: 1;
     background-color: rgb(243 244 246 / var(--tw-bg-opacity));
-  }
-
-  .lg\:bg-blue-700 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(26 86 219 / var(--tw-bg-opacity));
-  }
-
-  .lg\:bg-blue-600 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(28 100 242 / var(--tw-bg-opacity));
   }
 
   .lg\:px-12 {
@@ -5781,24 +5688,6 @@ textarea.form-control.is-invalid {
 }
 
 @media (min-width: 1280px) {
-  .xl\:grid-cols-8 {
-    grid-template-columns: repeat(8, minmax(0, 1fr));
-  }
-
-  .xl\:grid-rows-4 {
-    grid-template-rows: repeat(4, minmax(0, 1fr));
-  }
-
-  .xl\:bg-blue-700 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(26 86 219 / var(--tw-bg-opacity));
-  }
-
-  .xl\:bg-amber-50 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(255 251 235 / var(--tw-bg-opacity));
-  }
-
   .xl\:px-32 {
     padding-left: 8rem;
     padding-right: 8rem;
@@ -5824,20 +5713,12 @@ textarea.form-control.is-invalid {
     grid-column: span 3 / span 3;
   }
 
-  .\32xl\:col-start-4 {
-    grid-column-start: 4;
-  }
-
-  .\32xl\:col-start-3 {
-    grid-column-start: 3;
-  }
-
-  .\32xl\:col-start-1 {
-    grid-column-start: 1;
-  }
-
   .\32xl\:col-start-2 {
     grid-column-start: 2;
+  }
+
+  .\32xl\:col-start-4 {
+    grid-column-start: 4;
   }
 
   .\32xl\:col-start-6 {
@@ -5846,18 +5727,6 @@ textarea.form-control.is-invalid {
 
   .\32xl\:col-start-5 {
     grid-column-start: 5;
-  }
-
-  .\32xl\:row-span-1 {
-    grid-row: span 1 / span 1;
-  }
-
-  .\32xl\:row-start-2 {
-    grid-row-start: 2;
-  }
-
-  .\32xl\:row-start-3 {
-    grid-row-start: 3;
   }
 
   .\32xl\:my-10 {
@@ -5881,27 +5750,8 @@ textarea.form-control.is-invalid {
     gap: 0px;
   }
 
-  .\32xl\:bg-blue-700 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(26 86 219 / var(--tw-bg-opacity));
-  }
-
-  .\32xl\:bg-amber-50 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(255 251 235 / var(--tw-bg-opacity));
-  }
-
   .\32xl\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
-  }
-
-  .\32xl\:pb-10 {
-    padding-bottom: 2.5rem;
-  }
-
-  .\32xl\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
   }
 }
