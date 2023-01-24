@@ -5613,8 +5613,28 @@ textarea.form-control.is-invalid {
     grid-column: span 2 / span 2;
   }
 
+  .lg\:col-span-3 {
+    grid-column: span 3 / span 3;
+  }
+
   .lg\:col-start-2 {
     grid-column-start: 2;
+  }
+
+  .lg\:col-start-4 {
+    grid-column-start: 4;
+  }
+
+  .lg\:col-start-6 {
+    grid-column-start: 6;
+  }
+
+  .lg\:col-start-3 {
+    grid-column-start: 3;
+  }
+
+  .lg\:col-start-5 {
+    grid-column-start: 5;
   }
 
   .lg\:row-span-2 {
@@ -5634,8 +5654,21 @@ textarea.form-control.is-invalid {
     margin-bottom: 2rem;
   }
 
+  .lg\:my-10 {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
   .lg\:mt-32 {
     margin-top: 8rem;
+  }
+
+  .lg\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
+  .lg\:mb-20 {
+    margin-bottom: 5rem;
   }
 
   .lg\:flex {
@@ -5648,6 +5681,14 @@ textarea.form-control.is-invalid {
 
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-8 {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+
+  .lg\:grid-rows-4 {
+    grid-template-rows: repeat(4, minmax(0, 1fr));
   }
 
   .lg\:bg-gray-100 {
