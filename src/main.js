@@ -5,7 +5,7 @@ window.onload = () => {
    
     
     buttonProducts.onclick = () => {
-        window.location.href = "/src/productos.html";
+        // window.location.href = "/src/productos.html";
     }
 
 
