@@ -4067,6 +4067,10 @@ textarea.form-control.is-invalid {
   grid-row-start: 3;
 }
 
+.row-start-4 {
+  grid-row-start: 4;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -5612,8 +5616,20 @@ textarea.form-control.is-invalid {
     grid-column-start: 5;
   }
 
+  .lg\:col-start-1 {
+    grid-column-start: 1;
+  }
+
   .lg\:row-start-3 {
     grid-row-start: 3;
+  }
+
+  .lg\:row-start-1 {
+    grid-row-start: 1;
+  }
+
+  .lg\:row-start-2 {
+    grid-row-start: 2;
   }
 
   .lg\:my-8 {
@@ -5648,8 +5664,16 @@ textarea.form-control.is-invalid {
     width: 50%;
   }
 
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .lg\:grid-cols-8 {
     grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .lg\:grid-rows-4 {
@@ -5659,6 +5683,11 @@ textarea.form-control.is-invalid {
   .lg\:bg-gray-100 {
     --tw-bg-opacity: 1;
     background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+  }
+
+  .lg\:bg-amber-50 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 251 235 / var(--tw-bg-opacity));
   }
 
   .lg\:px-12 {
