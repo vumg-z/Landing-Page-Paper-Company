@@ -4319,6 +4319,10 @@ textarea.form-control.is-invalid {
   height: 1rem;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -4369,6 +4373,14 @@ textarea.form-control.is-invalid {
 
 .w-64 {
   width: 16rem;
+}
+
+.w-12 {
+  width: 3rem;
+}
+
+.w-32 {
+  width: 8rem;
 }
 
 .max-w-xl {
