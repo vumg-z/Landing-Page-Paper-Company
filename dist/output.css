@@ -5793,6 +5793,10 @@ textarea.form-control.is-invalid {
     place-content: center;
   }
 
+  .lg\:gap-6 {
+    gap: 1.5rem;
+  }
+
   .lg\:self-end {
     align-self: flex-end;
   }
