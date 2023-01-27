@@ -4211,6 +4211,10 @@ textarea.form-control.is-invalid {
   margin-top: 3rem;
 }
 
+.mt-28 {
+  margin-top: 7rem;
+}
+
 .block {
   display: block;
 }
@@ -4819,6 +4823,10 @@ textarea.form-control.is-invalid {
 
 .pt-2 {
   padding-top: 0.5rem;
+}
+
+.pt-32 {
+  padding-top: 8rem;
 }
 
 .text-left {
