@@ -1,12 +1,14 @@
-
-
 window.onload = () => {
-    let buttonProducts = document.getElementById("button_products");
    
+    let buttons = document.querySelectorAll("#button_products")
     
-    buttonProducts.onclick = () => {
-        // window.location.href = "/src/productos.html";
-    }
+
+    buttons.forEach(element => {
+        element.onclick = () => {
+            window.location.href = "https://wa.me/5213325065582";
+        }
+    });
+
 
 
 }
