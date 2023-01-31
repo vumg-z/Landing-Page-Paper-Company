@@ -4203,6 +4203,14 @@ textarea.form-control.is-invalid {
   margin-bottom: 0.25rem;
 }
 
+.mt-36 {
+  margin-top: 9rem;
+}
+
+.mt-60 {
+  margin-top: 15rem;
+}
+
 .block {
   display: block;
 }
@@ -5712,6 +5720,16 @@ textarea.form-control.is-invalid {
     margin-right: 3rem;
   }
 
+  .lg\:my-16 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .lg\:my-32 {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+
   .lg\:mt-0 {
     margin-top: 0px;
   }
@@ -5730,6 +5748,14 @@ textarea.form-control.is-invalid {
 
   .lg\:mt-32 {
     margin-top: 8rem;
+  }
+
+  .lg\:mt-60 {
+    margin-top: 15rem;
+  }
+
+  .lg\:mt-16 {
+    margin-top: 4rem;
   }
 
   .lg\:flex {
@@ -5778,6 +5804,14 @@ textarea.form-control.is-invalid {
 
   .lg\:grid-rows-4 {
     grid-template-rows: repeat(4, minmax(0, 1fr));
+  }
+
+  .lg\:grid-rows-2 {
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-rows-3 {
+    grid-template-rows: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:flex-row {
