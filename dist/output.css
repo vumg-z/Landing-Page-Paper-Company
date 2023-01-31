@@ -5740,6 +5740,10 @@ textarea.form-control.is-invalid {
     height: 25%;
   }
 
+  .lg\:h-auto {
+    height: auto;
+  }
+
   .lg\:w-1\/2 {
     width: 50%;
   }
