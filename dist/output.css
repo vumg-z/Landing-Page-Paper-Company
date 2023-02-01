@@ -4119,6 +4119,11 @@ textarea.form-control.is-invalid {
   margin-bottom: 0.25rem;
 }
 
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
 .mx-12 {
   margin-left: 3rem;
   margin-right: 3rem;
@@ -4132,11 +4137,6 @@ textarea.form-control.is-invalid {
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-}
-
-.my-12 {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
 }
 
 .mr-3 {
@@ -4201,14 +4201,6 @@ textarea.form-control.is-invalid {
 
 .mb-1 {
   margin-bottom: 0.25rem;
-}
-
-.mt-36 {
-  margin-top: 9rem;
-}
-
-.mt-60 {
-  margin-top: 15rem;
 }
 
 .block {
@@ -4283,20 +4275,24 @@ textarea.form-control.is-invalid {
   height: 1.25rem;
 }
 
-.h-auto {
-  height: auto;
+.h-3\/4 {
+  height: 75%;
 }
 
-.h-4\/5 {
-  height: 80%;
+.h-auto {
+  height: auto;
 }
 
 .h-4 {
   height: 1rem;
 }
 
-.h-3\/4 {
-  height: 75%;
+.h-4\/5 {
+  height: 80%;
+}
+
+.max-h-96 {
+  max-height: 24rem;
 }
 
 .min-h-screen {
@@ -4335,12 +4331,12 @@ textarea.form-control.is-invalid {
   width: 1.25rem;
 }
 
-.w-3\/4 {
-  width: 75%;
-}
-
 .w-auto {
   width: auto;
+}
+
+.w-3\/4 {
+  width: 75%;
 }
 
 .w-4 {
@@ -4701,11 +4697,6 @@ textarea.form-control.is-invalid {
 .bg-blue-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(26 86 219 / var(--tw-bg-opacity));
-}
-
-.bg-amber-50 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 251 235 / var(--tw-bg-opacity));
 }
 
 .bg-white\/30 {
@@ -5617,22 +5608,6 @@ textarea.form-control.is-invalid {
 }
 
 @media (min-width: 1024px) {
-  .lg\:order-1 {
-    order: 1;
-  }
-
-  .lg\:order-2 {
-    order: 2;
-  }
-
-  .lg\:order-3 {
-    order: 3;
-  }
-
-  .lg\:order-4 {
-    order: 4;
-  }
-
   .lg\:col-span-2 {
     grid-column: span 2 / span 2;
   }
@@ -5669,12 +5644,12 @@ textarea.form-control.is-invalid {
     grid-row: span 2 / span 2;
   }
 
-  .lg\:row-start-2 {
-    grid-row-start: 2;
-  }
-
   .lg\:row-start-1 {
     grid-row-start: 1;
+  }
+
+  .lg\:row-start-2 {
+    grid-row-start: 2;
   }
 
   .lg\:row-start-3 {
@@ -5685,6 +5660,11 @@ textarea.form-control.is-invalid {
     margin: 8rem;
   }
 
+  .lg\:mx-12 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
   .lg\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
@@ -5693,6 +5673,11 @@ textarea.form-control.is-invalid {
   .lg\:mx-20 {
     margin-left: 5rem;
     margin-right: 5rem;
+  }
+
+  .lg\:my-32 {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
   }
 
   .lg\:my-8 {
@@ -5715,27 +5700,20 @@ textarea.form-control.is-invalid {
     margin-bottom: 16rem;
   }
 
-  .lg\:mx-12 {
-    margin-left: 3rem;
-    margin-right: 3rem;
-  }
-
-  .lg\:my-16 {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-  }
-
-  .lg\:my-32 {
-    margin-top: 8rem;
-    margin-bottom: 8rem;
-  }
-
   .lg\:mt-0 {
     margin-top: 0px;
   }
 
+  .lg\:mt-16 {
+    margin-top: 4rem;
+  }
+
   .lg\:mb-2 {
     margin-bottom: 0.5rem;
+  }
+
+  .lg\:mt-60 {
+    margin-top: 15rem;
   }
 
   .lg\:ml-40 {
@@ -5750,28 +5728,16 @@ textarea.form-control.is-invalid {
     margin-top: 8rem;
   }
 
-  .lg\:mt-60 {
-    margin-top: 15rem;
-  }
-
-  .lg\:mt-16 {
-    margin-top: 4rem;
-  }
-
   .lg\:flex {
     display: flex;
-  }
-
-  .lg\:grid {
-    display: grid;
   }
 
   .lg\:h-12 {
     height: 3rem;
   }
 
-  .lg\:h-1\/4 {
-    height: 25%;
+  .lg\:h-3\/4 {
+    height: 75%;
   }
 
   .lg\:h-auto {
@@ -5798,6 +5764,10 @@ textarea.form-control.is-invalid {
     grid-template-columns: repeat(8, minmax(0, 1fr));
   }
 
+  .lg\:grid-rows-3 {
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+  }
+
   .lg\:grid-rows-1 {
     grid-template-rows: repeat(1, minmax(0, 1fr));
   }
@@ -5806,32 +5776,8 @@ textarea.form-control.is-invalid {
     grid-template-rows: repeat(4, minmax(0, 1fr));
   }
 
-  .lg\:grid-rows-2 {
-    grid-template-rows: repeat(2, minmax(0, 1fr));
-  }
-
-  .lg\:grid-rows-3 {
-    grid-template-rows: repeat(3, minmax(0, 1fr));
-  }
-
   .lg\:flex-row {
     flex-direction: row;
-  }
-
-  .lg\:gap-6 {
-    gap: 1.5rem;
-  }
-
-  .lg\:space-y-1 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
-  }
-
-  .lg\:space-y-10 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
   }
 
   .lg\:self-center {
@@ -5930,14 +5876,5 @@ textarea.form-control.is-invalid {
 
   .\32xl\:grid-rows-4 {
     grid-template-rows: repeat(4, minmax(0, 1fr));
-  }
-
-  .\32xl\:gap-0 {
-    gap: 0px;
-  }
-
-  .\32xl\:px-12 {
-    padding-left: 3rem;
-    padding-right: 3rem;
   }
 }
