@@ -1,6 +1,6 @@
 window.onload = () => {
    
-    let buttons = document.querySelectorAll("#button_products")
+    let buttons = document.querySelectorAll("#button")
     
 
     buttons.forEach(element => {

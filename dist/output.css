@@ -5896,3 +5896,9 @@ textarea.form-control.is-invalid {
     grid-template-rows: repeat(4, minmax(0, 1fr));
   }
 }
+
+#rollo {
+  max-width: 100%;
+  max-height: auto;
+  width: 50%; /* Ajusta este porcentaje según tus preferencias */
+}
