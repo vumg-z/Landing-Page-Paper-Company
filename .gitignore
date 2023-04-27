@@ -2,6 +2,7 @@
 
 # compiled output
 /tmp
+.replit
 
 # dependencies
 /node_modules
